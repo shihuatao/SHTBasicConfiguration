@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SHTBasicConfiguration_Example' do
+  pod 'SHTBasicConfiguration', :path => '../'
+
+  target 'SHTBasicConfiguration_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
