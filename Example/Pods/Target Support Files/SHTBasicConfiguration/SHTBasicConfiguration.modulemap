@@ -1,0 +1,6 @@
+framework module SHTBasicConfiguration {
+  umbrella header "SHTBasicConfiguration-umbrella.h"
+
+  export *
+  module * { export * }
+}

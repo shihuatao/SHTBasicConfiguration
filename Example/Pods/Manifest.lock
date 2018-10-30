@@ -1,0 +1,16 @@
+PODS:
+  - SHTBasicConfiguration (0.1.0)
+
+DEPENDENCIES:
+  - SHTBasicConfiguration (from `../`)
+
+EXTERNAL SOURCES:
+  SHTBasicConfiguration:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHTBasicConfiguration: 81e57538cd6be0fd313b6120039ab47cb7300a9a
+
+PODFILE CHECKSUM: 1a9d43fbdfc26ef4cdac7046c0eef32904879436
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,22 @@
+{
+  "name": "SHTBasicConfiguration",
+  "version": "0.1.0",
+  "summary": "A short description of SHTBasicConfiguration.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shihuatao/SHTBasicConfiguration",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shihuatao": "shiht@mapbar.com"
+  },
+  "source": {
+    "git": "https://github.com/shihuatao/SHTBasicConfiguration.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SHTBasicConfiguration/Classes/**/*"
+}
