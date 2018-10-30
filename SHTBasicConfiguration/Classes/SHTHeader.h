@@ -17,9 +17,9 @@
 #define kNavigationHeight (44 + [[UIApplication sharedApplication] statusBarFrame].size.height)
 #define kStatusBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height)
 
-//#define kCurrentAppVersion ([[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"])
-//#define kCurrentSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
-//#define kCurrentDeviceVersion [UIDevice currentDevice].systemVersion
+#define kCurrentAppVersion ([[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"])
+#define kCurrentSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#define kCurrentDeviceVersion [UIDevice currentDevice].systemVersion
 
 
 #endif /* SHTHeader_h */
