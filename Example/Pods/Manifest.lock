@@ -1,5 +1,5 @@
 PODS:
-  - SHTBasicConfiguration (0.1.0)
+  - SHTBasicConfiguration (0.1.1)
 
 DEPENDENCIES:
   - SHTBasicConfiguration (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SHTBasicConfiguration: 81e57538cd6be0fd313b6120039ab47cb7300a9a
+  SHTBasicConfiguration: 7458725fbcb89ee7881b17da42da001ae06c43b0
 
 PODFILE CHECKSUM: 1a9d43fbdfc26ef4cdac7046c0eef32904879436
 

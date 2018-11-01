@@ -7,7 +7,7 @@
 //
 
 #import "SHTViewController.h"
-
+#import "SHTHeader.h"
 @interface SHTViewController ()
 
 @end
@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    DLog(@"width %lf---  heigth %lf",self.view.frame.size.width,kSizeHeight);
+    
+    DLog(@"[[UIScreen mainScreen] currentMode].size %lf---%lf",[[UIScreen mainScreen] currentMode].size.width,[[UIScreen mainScreen] currentMode].size.height);
+
+
 }
 
 - (void)didReceiveMemoryWarning

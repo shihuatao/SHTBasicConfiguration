@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				53E4D29126011EBF139D1F23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shihuatao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JNCG3MM47D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,28 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		53E4D29126011EBF139D1F23 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SHTBasicConfiguration_Example/Pods-SHTBasicConfiguration_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SHTBasicConfiguration/SHTBasicConfiguration.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHTBasicConfiguration.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHTBasicConfiguration_Example/Pods-SHTBasicConfiguration_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		56B6A16FBD3A2B676932DABC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,13 +476,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AFE81EFF7427BE97B4EC669C /* Pods-SHTBasicConfiguration_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNCG3MM47D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHTBasicConfiguration/SHTBasicConfiguration-Prefix.pch";
 				INFOPLIST_FILE = "SHTBasicConfiguration/SHTBasicConfiguration-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -511,13 +496,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11549819807341324CE6024F /* Pods-SHTBasicConfiguration_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNCG3MM47D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHTBasicConfiguration/SHTBasicConfiguration-Prefix.pch";
 				INFOPLIST_FILE = "SHTBasicConfiguration/SHTBasicConfiguration-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
